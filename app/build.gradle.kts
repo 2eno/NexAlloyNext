@@ -19,7 +19,7 @@ android {
     namespace = "io.github.nexalloy.core"
 
     defaultConfig {
-        applicationId = "io.github.nexalloy.next"
+        applicationId = "dev.eno2.nexalloynext"
         versionCode = 18
         versionName = "3.1.$versionCode"
         buildConfigField("String", "COMMIT_HASH", "\"${gitCommitHashProvider.get()}\"")
