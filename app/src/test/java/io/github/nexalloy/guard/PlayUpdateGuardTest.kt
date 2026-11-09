@@ -21,7 +21,7 @@ class PlayUpdateGuardTest {
     fun packageNamesAreSafeForTheShell() {
         assertTrue(PlayUpdateGuard.isValidPackageName("com.instagram.android"))
         assertTrue(PlayUpdateGuard.isValidPackageName("com.google.android.apps.youtube.music"))
-        assertTrue(PlayUpdateGuard.isValidPackageName("io.github.nexalloy.next"))
+        assertTrue(PlayUpdateGuard.isValidPackageName("dev.eno2.nexalloynext"))
         assertFalse(PlayUpdateGuard.isValidPackageName("com.example; reboot"))
         assertFalse(PlayUpdateGuard.isValidPackageName("com.example && id"))
         assertFalse(PlayUpdateGuard.isValidPackageName("`id`"))
